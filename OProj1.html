@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Broccolife</title>
+        <link href="proj.css" rel="stylesheet">
+        <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+        
+            ReactDOM.render(
+                <div>
+                    <div class="topNavBar">
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a class="navBarItem" href="index.html"><img class="icon" src="Content/Icons/homeIcon.jpg"></img></a></li>
+                            <li><a class="navBarItem" href="Projects.html">School projects</a></li>
+                            <li><a class="navBarItem" href="OtherProjects.html">Other projects</a></li>
+                        </ul>
+                    </div>
+                    <h1>Broccolife</h1>
+                    <div class="content">
+                        <div>
+                            <div class="projInfo">
+                            <img src="Content/Videos/BroccolifeGif.gif" class="gif"></img>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h2>Gallery</h2>
+                            <div class="column"><img class="projImg" src="Content/Images/Broccolife/Broccolife5.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/Broccolife/Broccolife4.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/Broccolife/Broccolife8.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/Broccolife/Broccolife1.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/Broccolife/Broccolife6.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/Broccolife/Broccolife7.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/Broccolife/Broccolife2.png"></img></div>
+                        </div>
+                    </div>
+                </div>,
+                document.getElementById("root")
+            );
+        </script>
+    </body>
+</html>

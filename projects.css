@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    background-color: rgb(243, 248, 250);
+    text-align: center;
+    font-family: "Verdana", Verdana, sans-serif;
+    overflow-x: hidden;
+
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(116, 110, 124);
+    font-family: "Arial", Arial, sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 48px;
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+}
+
+.bannerImg{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.bannerImg:hover{
+    filter: grayscale(60%);
+}
+
+.bannerText{
+    text-shadow: 0px 0px 1px #000000;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color:white;
+}
+  
+li { 
+    float: left;
+    border-right: 1px solid white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+  
+li a {
+    display: block;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li a:hover{
+    color: rgb(150, 150, 150);
+}
+
+.topNavBar{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    background-color: rgb(116, 110, 124);
+    padding: 0.75%;
+}
+
+.icon{
+    width: 3vh;
+    height: 3vh;
+    float: left;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

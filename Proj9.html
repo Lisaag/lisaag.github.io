@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Penguin Glide</title>
+        <link href="proj.css" rel="stylesheet">
+        <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+        
+            ReactDOM.render(
+                <div>
+                    <div class="topNavBar">
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a class="navBarItem" href="index.html"><img class="icon" src="Content/Icons/homeIcon.jpg"></img></a></li>
+                            <li><a class="navBarItem" href="Projects.html">School projects</a></li>
+                            <li><a class="navBarItem" href="OtherProjects.html">Other projects</a></li>
+                        </ul>
+                    </div>
+                    <h1>Penguin Glide</h1>
+                    <div class="content">
+                        <div>
+                            <div class="projInfo">
+                                <div class="row">
+                                    <h2>About</h2>
+                                    <p>
+                                        <strong>Year: </strong>2019<br />
+                                        <strong>Made with: </strong> Unreal Engine; C++<br />
+                                        <br />In this game the player is a penguin stuck in a snowball, that is rolling over a bobsleigh-like track.
+                                        He has to dodge all kinds of objects to stay alive and get as much points as possible.<br />
+                                        <br />We made this game with a team of 3 people for a school project. The main objective of this project was
+                                        for us to learn how to use C++ to make games. We chose to use Unreal Engine, because this is a popular
+                                        game engine. In Unreal Engine you can create blueprint classes to be able to make a game without having to 
+                                        write code, however we barely used them and mostly wrote our own C++ classes since this was required of us by school.
+                                        The track is procedurally generated using Unreal Engine's Procedural Mesh Component and for the shape we implemented
+                                        an algorithm for a Cubic bezier curve repeatedly. This way we could create an infinite, randomized track.<br />
+                                    </p>
+                                    <img src="Content/Videos/PenguinGlideGif.gif" class="gif"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h2>Gallery</h2>
+                            <div class="column"><img class="projImg" src="Content/Images/PenguinGlide/PenguinGlide7.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/PenguinGlide/PenguinGlide6.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/PenguinGlide/PenguinGlide2.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/PenguinGlide/PenguinGlide3.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/PenguinGlide/PenguinGlide4.png"></img></div>
+                            <div class="column"><img class="projImg" src="Content/Images/PenguinGlide/PenguinGlide5.png"></img></div> 
+                        </div>
+                    </div>
+                </div>,
+                document.getElementById("root")
+            );
+        </script>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: "Verdana", Verdana, sans-serif;
+
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+}
+
+h1{
+    color: rgb(116, 110, 124);
+    font-family: "Arial", Arial, sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+h2{
+    color: rgb(116, 110, 124);
+    font-size: 2.25vw;
+    font-weight: 100;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color:white;
+}
+  
+li { 
+    float: left;
+    border-right: 1px solid white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+  
+li a {
+    display: block;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+li a:hover{
+    color: rgb(150, 150, 150);
+}
+
+.topNavBar{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    background-color: rgb(116, 110, 124);
+    padding: 0.75%;
+}
+
+.projInfo{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content{
+    border-color: black;
+    border-style: double;
+    border-width: 0.3vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.gif{
+    width: 65%;
+    height: auto;
+    border: 0.5vw solid black;
+    left: 0;
+}
+
+.projImg{
+    width: 100%;
+    height: auto; 
+}
+
+.row{
+    margin: 1%;
+}
+
+.icon{
+    width: 3vh;
+    height: 3vh;
+    float: left;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

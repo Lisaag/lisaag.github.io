@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Other Projects</title>
+        <link href="projects.css" rel="stylesheet">
+        <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+        
+            ReactDOM.render(
+                <div>
+                    <div class="topNavBar">
+                    </div>
+                    <div>
+                            <ul>
+                                <li><a class="navBarItem" href="index.html"><img class="icon" src="Content/Icons/homeIcon.jpg"></img></a></li>
+                                <li><a class="navBarItem" href="Projects.html">School projects</a></li>
+                                <li><a class="navBarItem" href="OtherProjects.html">Other projects</a></li>
+                            </ul>
+                        </div>
+                    <div class="banner">
+                        <a href="OProj1.html"><img class="bannerImg" src="Content/Images/Broccolife/Broccolife4.png"></img></a>
+                        <a href="OProj1.html" class="bannerText">Broccolife</a>
+                    </div>
+                </div>,
+                document.getElementById("root")
+            );
+        </script>
+    </body>
+</html>

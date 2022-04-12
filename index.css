@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background: rgb(246, 245, 248);
+    text-align: center;
+    font-family: "Verdana", Verdana, sans-serif;
+
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+}
+
+h1{
+    color: rgb(133, 121, 151);
+    font-family: "Arial", Arial, sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 48px;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color:white;
+}
+  
+li { 
+    float: left;
+    border-right: 1px solid white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+  
+li a {
+    display: block;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li a:hover{
+    color: rgb(150, 150, 150);
+}
+
+.homePageImg{
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    margin-bottom: 1%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.icons{
+    height: 5%;
+    width: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    filter: brightness(0.25);
+}
+
+.introText{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    color: rgb(46, 46, 46);
+    line-height: 1.6;
+    font-size: 80%;
+}
+
+.icons:hover { 
+    transform: scale(1.1); 
+    opacity: 0.7;
+}
+
+.lightBulb{
+    height: 5%;
+    width: 5%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.topNavBar{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    background-color: rgb(116, 110, 124);
+    padding: 0.8%;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

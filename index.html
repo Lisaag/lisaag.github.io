@@ -1,44 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="homepage.css">
-        <link rel="shortcut icon" href="main-page/placeholder.png" />
-        <title>Lisa Groen Portfolio</title>
+        <title>Portfolio Lisa Groen</title>
+        <link href="index.css" rel="stylesheet">
+        <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
     </head>
     <body>
-        <div class="main-area">
-            <div>
-                <ul class="menubar horizontal-ul">
-                    <div class="menu-left menu-logo">
-                        <li>
-                            <a href="https://www.w3schools.com"><img src="main-page/placeholder.png" alt="main logo" class="container-fit"></a>
-                        </li>
-                        <!-- <img src="main-page/placeholder.png" alt=""> -->
+        <div id="root"></div>
+        <script type="text/babel">
+        
+            ReactDOM.render(
+                <div>
+                    <div>
+                        <div class="topNavBar">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a class="navBarItem" href="Projects.html">School projects</a></li>
+                                <li><a class="navBarItem" href="OtherProjects.html">Other projects</a></li>
+                            </ul>
+                        </div>
+                        <h1>Hello!</h1>
+                        <img class="homePageImg" src="Content/Images/fotoHomePage.jpg"></img>
+                        <p class="introText">Welcome to my portfolio website! I am currently in my last year of the study Game Development at Amsterdam University of Applied Sciences. This website is still work in progress, but you can already have a look at some of my work. Down below you can find my resume, linkedin profile and email-addres</p>
+                        <div>
+                            <a href="Content/Documenten/CV.pdf" target="_blank"><input class="icons" type="image" src="Content/Icons/documentlogo.png"/></a>
+                            <a href="https://nl.linkedin.com/in/lisa-groen-bb298816b" target="_blank"><input class="icons" type="image" src="Content/Icons/linkedinlogo.png"/></a>
+                            <input class="icons" type="image" href="mailto: lisatgroen@hotmail.com" src="Content/Icons/emailicon.png"/>
+                        </div>
                     </div>
-                    <div class="menu-button menu-right">
-                        <li></li>
-                        <a>Contact</a>
-                    </div>
-                    <div class="menu-button menu-right">
-                        <li></li>
-                        <a>About</a>
-                    </div>
-                    <div class="menu-button menu-right">
-                        <li></li>
-                        <a>Projects</a>
-                    </div>
-                  </ul>
-            </div>
-            <div class="main-area fade-in-image">
-                <h1 class="main-name">Lisa Groen</h1>
-                <p class="main-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div class="logo-area">
-                    <div class="test pop-in-image"><img src="main-page/github.png" alt="main logo" class="container-fit main-logo"></div>
-                    <div class="test pop-in-image"><img src="main-page/cv.jpg" alt="main logo" class="container-fit main-logo"></div>
-                    <div class="test pop-in-image"><img src="main-page/linkedin.png" alt="main logo" class="container-fit main-logo"></div>
-                </div>
-            </div>
-
-        </div>
+                </div>,
+                document.getElementById("root")
+            );
+        </script>
     </body>
 </html>
