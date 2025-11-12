@@ -1,0 +1,74 @@
+@import "../../_globalColor.scss";
+
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: $textColorDark;
+}
+
+.modal {
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  background-color: $darkBackground;
+  height: 85%;
+  width: 85%;
+  padding: 2% 2% 2% 2%;
+
+  /* display: block;
+    margin: 10%;
+    padding-left: 2%;
+    padding-right: 2%; */
+  overflow: scroll;
+}
+
+.btn-submit {
+  background-color: #42a942;
+}
+
+.btn-cancel {
+  background-color: #d9534f;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.images-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.images {
+  position: relative;
+  width: 100%;
+}
