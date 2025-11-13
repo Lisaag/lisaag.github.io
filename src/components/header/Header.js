@@ -11,13 +11,19 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  educationInfo,
+  bigProjects,
+  personalProjects
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   //const {isDark} = true
   const viewExperience = workExperiences.display;
+  const viewEducationInfo = educationInfo.display;
+  const viewBigProjects = bigProjects.display;
+  const viewPersonalProjects = personalProjects.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
@@ -42,44 +48,21 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewSkills && (
+          {viewEducationInfo && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#education">Education</a>
             </li>
           )}
-          {viewExperience && (
+          {viewBigProjects && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#projects">School Projects</a>
             </li>
           )}
-          {viewOpenSource && (
+          {viewPersonalProjects && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#personalProjects">Personal Projects</a>
             </li>
           )}
-          {viewAchievement && (
-            <li>
-              <a href="#achievements">Achievements</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
-            </li>
-          )}
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
         </ul>
       </header>
     </Headroom>

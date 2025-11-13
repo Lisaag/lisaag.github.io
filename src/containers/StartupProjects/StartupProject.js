@@ -1,14 +1,13 @@
 import React, {useState, useContext} from "react";
 import {createPortal} from "react-dom";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 import {Modal} from "../../components/projectDescription/Modal";
 import projectDetailsData from "../../data/projectDetailsData";
 
-export default function StartupProject() {
+export default function StartupProject({ data, idhref }) {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -24,7 +23,7 @@ export default function StartupProject() {
   };
 
   const {isDark} = useContext(StyleContext);
-  if (!bigProjects.display) {
+  if (!data.display) {
     return null;
   }
   return (
@@ -38,9 +37,9 @@ export default function StartupProject() {
           document.body
         )}
       <Fade bottom duration={1000} distance="20px">
-        <div className="main" id="projects">
+        <div className="main" id={idhref}>
           <div>
-            <h1 className="skills-heading">{bigProjects.title}</h1>
+            <h1 className="skills-heading">{data.title}</h1>
             <p
               className={
                 isDark
@@ -48,11 +47,11 @@ export default function StartupProject() {
                   : "subTitle project-subtitle"
               }
             >
-              {bigProjects.subtitle}
+              {data.subtitle}
             </p>
 
             <div className="projects-container">
-              {bigProjects.projects.map((project, i) => {
+              {data.projects.map((project, i) => {
                 return (
                   <div
                     key={i}

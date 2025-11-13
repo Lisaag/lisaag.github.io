@@ -144,7 +144,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -165,7 +165,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -235,6 +235,23 @@ const bigProjects = {
     },
     {
       projectId: "graphics-programming2",
+      image: require("./assets/images/GraphicsProgramming.png"),
+      projectName: "Nextu"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const personalProjects = {
+  title: "Personal Projects",
+  projects: [
+    {
+      projectId: "computer-vision",
+      image: require("./assets/images/ComputerVision.jpeg"),
+      projectName: "Computer Vision"
+    },
+    {
+      projectId: "graphics-programming",
       image: require("./assets/images/GraphicsProgramming.png"),
       projectName: "Nextu"
     }
@@ -395,6 +412,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  personalProjects,
   achievementSection,
   blogSection,
   talkSection,
@@ -402,5 +420,4 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
-};
+  resumeSection};
