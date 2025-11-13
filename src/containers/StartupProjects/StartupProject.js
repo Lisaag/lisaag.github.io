@@ -16,6 +16,7 @@ export default function StartupProject({ data, idhref }) {
   };
 
   const showPopup = id => {
+    window.scrollBy(0, 1);
     const project = projectDetailsData.find(p => p.id === id);
     setSelectedProject(project);
     setModalOpen(true);
