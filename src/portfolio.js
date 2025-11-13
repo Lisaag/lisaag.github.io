@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Lisa Groen",
-  title: "Hi all, I'm Lisa",
+  title: "Hi all, I'm Lisa!!!!!",
   subTitle: emoji("A passionate developer. Add more text"),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
