@@ -30,25 +30,94 @@ const projectDetailsData = [
     images: ["GraphicsProgramming0.1.png", "GraphicsProgramming0.2.png"]
   },
   {
-    id: "graphics-programming2",
-    title: "Graphics Programming",
+    id: "penguin-glide",
+    title: "Penguin Glide",
     year: "2019",
-    technologies: "Unity; C#, Cg",
+    technologies: "Unreal Engine; C++",
     description:
-      "For this class the main objective was to learn the basic techniques to create nice graphics in a game while still maintaining a high framerate to make games both look nice and run smoothly. I generated kind of a voxel/minecraft world as a single mesh. Only the triangles that are actually visible for the camera are being rendered. I did not make the world interactable, but it can easily be implemented to make removable blocks. The shape of the chunk is created by using Unity's perlin noise. For the water I wrote a shader which uses an algorithm to create Gerstner waves, which makes the water appear to move realistically. I also made a post processing effect using the zbuffer and Gaussian kernel to make objects in the distance blurry. To improve the performance I also applied things such as mipmaps, texture atlas and I concidered the filtering methods of the textures.",
-    videos: ["GraphicsProgrammingGIF.gif"],
-    images: ["GraphicsProgramming0.1.png", "GraphicsProgramming0.2.png"]
+      "In this game the player is a penguin stuck in a snowball, that is rolling over a bobsleigh-like track. He has to dodge all kinds of objects to stay alive and get as much points as possible. We made this game with a team of 3 people for a school project. The main objective of this project was for us to learn how to use C++ to make games. We chose to use Unreal Engine, because this is a popular game engine. In Unreal Engine you can create blueprint classes to be able to make a game without having to write code, however we barely used them and mostly wrote our own C++ classes since this was required of us by school. The track is procedurally generated using Unreal Engine's Procedural Mesh Component and for the shape we implemented an algorithm for a Cubic bezier curve repeatedly. This way we could create an infinite, randomized track.",
+    videos: ["PenguinGlideGif.gif"],
+    images: ["PenguinGlide7.png", "PenguinGlide6.png", "PenguinGlide2.png", "PenguinGlide3.png", "PenguinGlide4.png", "PenguinGlide5.png"]
   },
   {
-    id: "graphics-programming3",
-    title: "Graphics Programming",
+    id: "automated-game-design",
+    title: "Automated Game Design",
     year: "2019",
-    technologies: "Unity; C#, Cg",
+    technologies: "Unity; C#",
     description:
-      "For this class the main objective was to learn the basic techniques to create nice graphics in a game while still maintaining a high framerate to make games both look nice and run smoothly. I generated kind of a voxel/minecraft world as a single mesh. Only the triangles that are actually visible for the camera are being rendered. I did not make the world interactable, but it can easily be implemented to make removable blocks. The shape of the chunk is created by using Unity's perlin noise. For the water I wrote a shader which uses an algorithm to create Gerstner waves, which makes the water appear to move realistically. I also made a post processing effect using the zbuffer and Gaussian kernel to make objects in the distance blurry. To improve the performance I also applied things such as mipmaps, texture atlas and I concidered the filtering methods of the textures.",
-    videos: ["GraphicsProgrammingGIF.gif"],
-    images: ["GraphicsProgramming0.1.png", "GraphicsProgramming0.2.png"]
+      "An app to randomize the position of room content, using John Conway's game of life algorithm. The goal of this course was to use algorithms in order to automate the design of the game.",
+    videos: ["AGDGif.gif"],
+    images: ["AGD1.jpg", "AGD2.jpg", "AGD3.jpg"]
+  },
+  {
+    id: "de-schipper",
+    title: "De Schipper",
+    year: "2018",
+    technologies: "Angular; HTML, CSS, TypeScript",
+    description:
+      "An app that people driving a boat can use to register to bridges and sluices. I created the user interface design and programmed the front end of the app using Angular.",
+    images: ["DeSchipper9.png", "DeSchipper10.png", "DeSchipper12.png", "DeSchipper13.png", ]
+  },
+  {
+    id: "chasing-colors",
+    title: "Chasing Colors",
+    year: "2018",
+    technologies: "Arduino; C",
+    description:
+      "I worked in a team consisting of two illustrators and two developers. We created a prototipe of an interactive bracelet for children who suffer from asthma, to try to motivate them to do daily exercise. The bracelet has an integrated accelerometer, and the children can unlock different colors by doing regular exercise which will be shown through rgb lights on the bracelet. ",
+    images: ["ChasingColors2.jpg", "ChasingColors3.jpg", "ChasingColors1.png", "ChasingColors4.jpg", "ChasingColors5.jpg"]
+  },
+  {
+    id: "trustfall",
+    title: "Trustfall",
+    year: "2017",
+    technologies: "Unity; C#; Unity Multiplayer",
+    description:
+      "A two player collaboration multiplayer game where the players can solve puzzles and complete levels by working together. The game can be played online, which was implemented using Unity Multiplayer.",
+    videos: ["TrustfallGif.gif"],
+    images: ["Trustfall4.png", "Trustfall1.jpg", "Trustfall5.png", "Trustfall2.jpg"]
+  },
+  {
+    id: "cool-racing-game",
+    title: "Cool Racing Game",
+    year: "2017",
+    technologies: "Blender (Blender Game Engine, Python)",
+    description:
+      "A local multiplayer very cool racing game! All models were made in Blender, and Blender Game Engine was used to program the game using Python.",
+    videos: ["CRGGif.gif"],
+    images: ["CRG2.png", "CRG1.png", "CRG3.png"]
+  },
+  {
+    id: "hackerman",
+    title: "Hackerman",
+    year: "2016",
+    technologies: "Processing (Java)",
+    description:
+      "You play as a chip, trying to reconnect to the motherboard while avoiding viruses.",
+    videos: ["HackermanGif.gif"],
+    images: ["Hackerman3.png", "Hackerman1.png", "Hackerman4.png", "Hackerman7.png", "Hackerman6.png", "Hackerman2.png"]
+  },
+  {
+    id: "black-space",
+    title: "Black Space",
+    year: "2016",
+    technologies: "Game Maker (GML)",
+    description:
+      "A fast-paced bullet-hell space shooter inspired by Enter the Gungeon. Play as a lone astronaut battling through waves of enemies across increasingly difficult levels, until you finally face the colossal black hole itself. This is the first game I've created all by myself (Yes, I am a little proud)!",
+    videos: ["BlackSpaceGif.gif"],
+    images: ["BlackSpace2.png", "BlackSpace3.png", "BlackSpace4.png", "BlackSpace5.png", "BlackSpace6.png", "BlackSpace7.png", "BlackSpace10.png", "BlackSpace11.png", "BlackSpace1.png"]
+  },
+  {
+    id: "broccolife",
+    title: "Broccolife",
+    year: "2016",
+    technologies: "Game Maker (GML)",
+    description:
+      "Created in just 48 hours for a game jam, this game challenges players to demolish factories while avoiding trees, aiming to restore the planet to a greener, factory-free state. Along the way, players can collect batteries to power their vehicle’s electric mode, reducing emissions and promoting a cleaner environment.",
+    videos: ["BroccolifeGif.gif"],
+    images: ["Broccolife5.png", "Broccolife4.png", "Broccolife8.png", "Broccolife1.png", "Broccolife6.png", "Broccolife7.png", "Broccolife2.png"]
   }
+
 ];
 
 export default projectDetailsData;

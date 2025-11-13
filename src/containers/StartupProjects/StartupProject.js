@@ -72,7 +72,7 @@ export default function StartupProject({ data, idhref }) {
                       <div className="project-image">
                         <img
                           src={project.image}
-                          alt={project.projectName}
+                          alt={project.id}
                           className="card-image-proj"
                         ></img>
                       </div>

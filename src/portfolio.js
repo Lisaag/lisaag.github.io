@@ -211,32 +211,42 @@ const bigProjects = {
     {
       projectId: "computer-vision",
       image: require("./assets/images/ComputerVision.jpeg"),
-      projectName: "Computer Vision"
     },
     {
       projectId: "graphics-programming",
       image: require("./assets/images/GraphicsProgramming.png"),
-      projectName: "Nextu"
     },
     {
-      projectId: "graphics-programming2",
-      image: require("./assets/images/GraphicsProgramming.png"),
-      projectName: "Nextu"
+      projectId: "penguin-glide",
+      image: `/${"PenguinGlide1.jpg"}`
     },
     {
-      projectId: "graphics-programming2",
-      image: require("./assets/images/GraphicsProgramming.png"),
-      projectName: "Nextu"
+      projectId: "automated-game-design",
+      image: `/${"AGD3 (1).jpg"}`
     },
     {
-      projectId: "graphics-programming2",
-      image: require("./assets/images/GraphicsProgramming.png"),
-      projectName: "Nextu"
+      projectId: "de-schipper",
+      image: `/${"DeSchipper11.png"}`
     },
     {
-      projectId: "graphics-programming2",
-      image: require("./assets/images/GraphicsProgramming.png"),
-      projectName: "Nextu"
+      projectId: "chasing-colors",
+      image: `/${"ChasingColors6.png"}`
+    },
+    {
+      projectId: "trustfall",
+      image: `/${"Trustfall3.png"}`
+    },
+    {
+      projectId: "cool-racing-game",
+      image: `/${"CRG1.png"}`
+    },
+    {
+      projectId: "hackerman",
+      image: `/${"Hackerman5.png"}`
+    },
+    {
+      projectId: "black-space",
+      image: `/${"BlackSpace9.png"}`
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -246,14 +256,8 @@ const personalProjects = {
   title: "Personal Projects",
   projects: [
     {
-      projectId: "computer-vision",
-      image: require("./assets/images/ComputerVision.jpeg"),
-      projectName: "Computer Vision"
-    },
-    {
-      projectId: "graphics-programming",
-      image: require("./assets/images/GraphicsProgramming.png"),
-      projectName: "Nextu"
+      projectId: "broccolife",
+      image: `/${"Broccolife4.png"}`
     }
   ],
   display: true // Set false to hide this section, defaults to true
