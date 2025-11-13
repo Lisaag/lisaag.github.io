@@ -211,25 +211,22 @@ const bigProjects = {
     {
       projectId: "computer-vision",
       image: require("./assets/images/ComputerVision.jpeg"),
-      projectName: "Computer Vision",
-      footerLink: [
-        {
-          name: "See More",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      projectName: "Computer Vision"
     },
     {
       projectId: "graphics-programming",
       image: require("./assets/images/GraphicsProgramming.png"),
-      projectName: "Nextu",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectName: "Nextu"
+    },
+    {
+      projectId: "graphics-programming2",
+      image: require("./assets/images/GraphicsProgramming.png"),
+      projectName: "Nextu"
+    },
+    {
+      projectId: "graphics-programming3",
+      image: require("./assets/images/GraphicsProgramming.png"),
+      projectName: "Nextu"
     }
   ],
   display: true // Set false to hide this section, defaults to true

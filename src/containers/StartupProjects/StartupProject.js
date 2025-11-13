@@ -77,23 +77,16 @@ export default function StartupProject() {
                       </div>
                     ) : null}
                     <div className="project-detail">
-                      {project.footerLink ? (
                         <div className="project-card-footer">
-                          {project.footerLink.map((link, i) => {
-                            return (
                               <span
-                                key={i}
                                 className={
                                   isDark ? "dark-mode see-more" : "see-more"
                                 }
                                 onClick={() => showPopup(project.projectId)}
                               >
-                                {link.name}
+                                See More
                               </span>
-                            );
-                          })}
                         </div>
-                      ) : null}
                     </div>
                   </div>
                 );

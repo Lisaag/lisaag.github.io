@@ -22,7 +22,23 @@ const projectDetailsData = [
     title: "Graphics Programming",
     description:
       "For this class the main objective was to learn the basic techniques to create nice graphics in a game while still maintaining a high framerate to make games both look nice and run smoothly. I generated kind of a voxel/minecraft world as a single mesh. Only the triangles that are actually visible for the camera are being rendered. I did not make the world interactable, but it can easily be implemented to make removable blocks. The shape of the chunk is created by using Unity's perlin noise. For the water I wrote a shader which uses an algorithm to create Gerstner waves, which makes the water appear to move realistically. I also made a post processing effect using the zbuffer and Gaussian kernel to make objects in the distance blurry. To improve the performance I also applied things such as mipmaps, texture atlas and I concidered the filtering methods of the textures.",
-    videos: ["GraphicsProgrammingGif.gif"],
+    videos: ["GraphicsProgrammingGIF.gif"],
+    images: ["GraphicsProgramming0.1.png", "GraphicsProgramming0.2.png"]
+  },
+  {
+    id: "graphics-programming2",
+    title: "Graphics Programming",
+    description:
+      "For this class the main objective was to learn the basic techniques to create nice graphics in a game while still maintaining a high framerate to make games both look nice and run smoothly. I generated kind of a voxel/minecraft world as a single mesh. Only the triangles that are actually visible for the camera are being rendered. I did not make the world interactable, but it can easily be implemented to make removable blocks. The shape of the chunk is created by using Unity's perlin noise. For the water I wrote a shader which uses an algorithm to create Gerstner waves, which makes the water appear to move realistically. I also made a post processing effect using the zbuffer and Gaussian kernel to make objects in the distance blurry. To improve the performance I also applied things such as mipmaps, texture atlas and I concidered the filtering methods of the textures.",
+    videos: ["GraphicsProgrammingGIF.gif"],
+    images: ["GraphicsProgramming0.1.png", "GraphicsProgramming0.2.png"]
+  },
+  {
+    id: "graphics-programming3",
+    title: "Graphics Programming",
+    description:
+      "For this class the main objective was to learn the basic techniques to create nice graphics in a game while still maintaining a high framerate to make games both look nice and run smoothly. I generated kind of a voxel/minecraft world as a single mesh. Only the triangles that are actually visible for the camera are being rendered. I did not make the world interactable, but it can easily be implemented to make removable blocks. The shape of the chunk is created by using Unity's perlin noise. For the water I wrote a shader which uses an algorithm to create Gerstner waves, which makes the water appear to move realistically. I also made a post processing effect using the zbuffer and Gaussian kernel to make objects in the distance blurry. To improve the performance I also applied things such as mipmaps, texture atlas and I concidered the filtering methods of the textures.",
+    videos: ["GraphicsProgrammingGIF.gif"],
     images: ["GraphicsProgramming0.1.png", "GraphicsProgramming0.2.png"]
   }
 ];

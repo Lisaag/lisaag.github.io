@@ -22,6 +22,12 @@ export const Modal = ({closeModal, project, children}) => {
           <h1>{project.title}</h1>
           <p>{project.description}</p>​
           {project.videos.map(_vid =>
+            _vid.endsWith(".mp4") ? (
+              <video className="images" controls>
+                <source src={`/${_vid}`} type="video/mp4"/>
+              </video>
+            ) :
+
             _vid.endsWith(".gif") ? (
               <img
                 src={`/${_vid}`}
