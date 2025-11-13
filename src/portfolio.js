@@ -224,7 +224,17 @@ const bigProjects = {
       projectName: "Nextu"
     },
     {
-      projectId: "graphics-programming3",
+      projectId: "graphics-programming2",
+      image: require("./assets/images/GraphicsProgramming.png"),
+      projectName: "Nextu"
+    },
+    {
+      projectId: "graphics-programming2",
+      image: require("./assets/images/GraphicsProgramming.png"),
+      projectName: "Nextu"
+    },
+    {
+      projectId: "graphics-programming2",
       image: require("./assets/images/GraphicsProgramming.png"),
       projectName: "Nextu"
     }

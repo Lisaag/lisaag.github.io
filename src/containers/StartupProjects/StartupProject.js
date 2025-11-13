@@ -67,6 +67,7 @@ export default function StartupProject() {
                     >
                       {project.projectName}
                   </h5> */}
+ 
                     {project.image ? (
                       <div className="project-image">
                         <img
@@ -76,18 +77,9 @@ export default function StartupProject() {
                         ></img>
                       </div>
                     ) : null}
-                    <div className="project-detail">
-                        <div className="project-card-footer">
-                              <span
-                                className={
-                                  isDark ? "dark-mode see-more" : "see-more"
-                                }
-                                onClick={() => showPopup(project.projectId)}
-                              >
-                                See More
-                              </span>
-                        </div>
-                    </div>
+                    <span className="project-detail" onClick={() => showPopup(project.projectId)}>
+                      See More
+                    </span>
                   </div>
                 );
               })}
