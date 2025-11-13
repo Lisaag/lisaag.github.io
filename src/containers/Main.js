@@ -40,7 +40,7 @@ const Main = () => {
   }, []);
 
   const changeTheme = () => {
-    setIsDark(!isDark);
+    //setIsDark(!isDark);
   };
 
   return (
