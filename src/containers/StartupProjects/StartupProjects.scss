@@ -76,7 +76,8 @@
   flex-wrap: wrap;
   height: 60vh;
   gap:0.4rem;
-  overflow:scroll;
+  overflow-y:scroll;
+  overflow-x: hidden;
 }
 
 span.see-more {
