@@ -19,7 +19,7 @@ export const Modal = ({closeModal, project, children}) => {
           <p className="close">&times;</p>
         </div>
         <div className="modal-content">
-          <h1>{project.title}</h1>
+          <h1 className="modal-title">{project.title}</h1>
           <p className="modal-description">
             <div><b>Year:</b> {project.year}</div>
             <div><b>Made with:</b> {project.technologies}</div>
