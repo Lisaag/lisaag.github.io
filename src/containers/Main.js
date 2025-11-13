@@ -40,8 +40,10 @@ const Main = () => {
   }, []);
 
   const changeTheme = () => {
-    //setIsDark(!isDark);
+    setIsDark(true);
   };
+
+  setIsDark(true)
 
   return (
     <div className={isDark ? "dark-mode" : null}>
