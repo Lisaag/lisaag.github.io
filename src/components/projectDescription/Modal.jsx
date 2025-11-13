@@ -20,7 +20,12 @@ export const Modal = ({closeModal, project, children}) => {
         </div>
         <div className="modal-content">
           <h1>{project.title}</h1>
-          <p>{project.description}</p>​
+          <p className="modal-description">
+            <div><b>Year:</b> {project.year}</div>
+            <div><b>Made with:</b> {project.technologies}</div>
+            <br></br>
+            <div>{project.description}</div>
+            </p>​
           <div className="images-container">
 
           {project.videos.map(_vid =>

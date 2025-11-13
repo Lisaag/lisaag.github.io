@@ -41,6 +41,16 @@
   cursor: pointer;
 }
 
+.modal-description{
+  text-align: center;
+  width: 90%;
+  font-weight:0;
+}
+
+iframe{
+  aspect-ratio: 560/315;
+}
+
 .modal-header {
   display: flex;
   justify-content: flex-end;
@@ -71,5 +81,5 @@
 
 .images {
   position: relative;
-  width: 80%;
+  width: 100%;
 }
