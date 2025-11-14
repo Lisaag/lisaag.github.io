@@ -18,6 +18,7 @@ export default function Footer() {
           >
             developerFolio
           </a>
+          , tailored for me by me.
         </p>
       </div>
     </Fade>

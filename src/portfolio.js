@@ -21,10 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Lisa Groen",
-  title: "Hi all, I'm Lisa!!!!!",
-  subTitle: emoji("A passionate developer. Add more text"),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  title: "Hi there, I'm Lisa!!",
+  subTitle: "Thank you for checking out my portfolio website! Please stay a bit longer, and check out some of my cool projects down below :)",
+  resumeLink: "CV.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -117,26 +116,65 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
+  title: "Education",
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Utrecht University",
       logo: require("./assets/images/Utrecht_University_logo.svg.png"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "Master of Science in Computer Science (Game and Media Technology)",
       duration: "Februari 2023 - April 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Graduation thesis title: Towards Continuous Sleep Monitoring of Preterm Infants in Complex NICU Scenes: A Video-Based Approach Using Eye Cues.",
     },
     {
       schoolName: "Amsterdam University of Applied Sciences",
       logo: require("./assets/images/channels4_profile.jpg"),
-      subHeader: "Bachelor of Science in HBO-ICT",
+      subHeader: "Bachelor of Science in HBO-ICT (Game Development)",
       duration: "September 2016 - August 2020",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Graduation project on procedural mountain landscape generation for a turn-based JRPG.",
+    }
+  ]
+};
+
+const workInfo = {
+  title: "Work Experience",
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Utrecht University",
+      subHeader: "Teaching Assistant",
+      duration: "September 2024 - November 2024",
+      desc: "Teaching Assistant for the Multimedia Retrieval course. Presented introductory sessions for the practical assignments and offered guidance and support to students.",
+    },
+    {
+      schoolName: "U-pad",
+      subHeader: "Chair",
+      duration: "September 2023 - September 2024",
+      desc: "Chair of gaming student association in Utrecht.",
+    },
+    {
+      schoolName: "Miracle Mile",
+      subHeader: "AR software engineer",
+      duration: "Januari 2021 - October 2021",
+      desc: "Developed HoloLens 2 applications using Unity MRTK and Azure AR tools, built cross-platform online features for smartphones and tablets, and created IoT solutions with Arduino and M5Stack.",
+    },
+    {
+      schoolName: "Shinyuden",
+      subHeader: "Game programming intern",
+      duration: "March 2020 - August 2020",
+      desc: "Worked on generating a mountain landscape 3D model based on a set of pseudo random parameters.",
+    },
+    {
+      schoolName: "Therapieland",
+      subHeader: "VR engineer intern",
+      duration: "September 2019 - Januari 2020",
+      desc: "Developed an immersive VR application to support individuals facing anger-management challenges. Contributed across the full production pipeline; from game concept development and 3D asset creation to software implementation, including procedural 3D mesh generation.",
+    },
+    {
+      schoolName: "Digital Society School",
+      subHeader: "Software engineer intern",
+      duration: "Januari 2018 - July 2018",
+      desc: "Developed a prototype of an interactive bracelet designed to support children with asthma by making physical activity more engaging and motivating.",
     }
   ]
 };
@@ -412,6 +450,7 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
+  workInfo,
   techStack,
   workExperiences,
   openSource,
