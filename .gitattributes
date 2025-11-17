@@ -5,3 +5,4 @@
 *.webp binary
 *.woff binary
 public/ssrec.mov filter=lfs diff=lfs merge=lfs -text
+public/lmfaorec.mov filter=lfs diff=lfs merge=lfs -text
