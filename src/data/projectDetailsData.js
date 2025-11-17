@@ -2,6 +2,24 @@
 
 const projectDetailsData = [
   {
+    id: "game-physics",
+    title: "Game Physics",
+    year: "2024",
+    technologies: "Unity; C#",
+    description:
+      "For this assignment I created cloth physics using a mass-spring system, and ray-ellipsoid intersection for collision.",
+    videos: ["gamephysics2.gif"],
+    images: [
+      "Screenshot 2025-11-17 at 11.27.59.png",
+      "Screenshot 2025-11-17 at 12.11.12.png",
+      "Screenshot 2025-11-17 at 11.25.57.png",
+      "Screenshot 2025-11-17 at 11.26.47.png",
+      "Screenshot 2025-11-17 at 11.27.10.png",
+      "Screenshot 2025-11-17 at 12.07.19.png"
+
+    ]
+  },
+  {
     id: "computer-vision",
     title: "Computer Vision",
     year: "2023",

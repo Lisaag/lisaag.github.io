@@ -247,12 +247,16 @@ const bigProjects = {
   title: "School Projects",
   projects: [
     {
+      projectId: "game-physics",
+      image: `/${"Screenshot 2025-11-17 at 11.27.59.png"}`
+    },
+    {
       projectId: "computer-vision",
-      image: require("./assets/images/ComputerVision.jpeg"),
+      image: require("./assets/images/ComputerVision.jpeg")
     },
     {
       projectId: "graphics-programming",
-      image: require("./assets/images/GraphicsProgramming.png"),
+      image: require("./assets/images/GraphicsProgramming.png")
     },
     {
       projectId: "penguin-glide",
