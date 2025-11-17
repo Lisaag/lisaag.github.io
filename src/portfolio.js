@@ -247,12 +247,24 @@ const bigProjects = {
   title: "School Projects",
   projects: [
     {
+      projectId: "alfredos-kitchen",
+      image: `/${"Screenshot 2025-11-17 at 14.55.11.png"}`
+    },
+    {
+      projectId: "advanced-graphics",
+      image: `/${"ag_preview.jpeg"}`
+    },
+    {
       projectId: "game-physics",
       image: `/${"Screenshot 2025-11-17 at 11.27.59.png"}`
     },
     {
       projectId: "computer-vision",
       image: require("./assets/images/ComputerVision.jpeg")
+    },
+    {
+      projectId: "space-neon-emotions",
+      image: `/${"vr1.png"}`
     },
     {
       projectId: "graphics-programming",

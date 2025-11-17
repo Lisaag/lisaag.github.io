@@ -31,10 +31,12 @@ export const Modal = ({closeModal, project, children}) => {
           {project.videos && (
           <div>
             {project.videos.map(_vid =>
-              _vid.endsWith(".mp4") ? (
-                <video className="images" controls>
+              _vid.endsWith(".mp4") || _vid.endsWith(".mov") ? (
+                <video controls muted className="images">
                   <source src={`/${_vid}`} type="video/mp4"/>
                 </video>
+                 //{document.getElementById('vid').play();}
+
               ) :
 
               _vid.endsWith(".gif") ? (

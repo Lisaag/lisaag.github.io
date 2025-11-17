@@ -2,12 +2,44 @@
 
 const projectDetailsData = [
   {
+    id: "alfredos-kitchen",
+    title: "Alfredo's Kitchen",
+    year: "2024",
+    technologies: "Unity; C#",
+    description:
+      "For this assignment, my group and I created a serious game designed to help people working in, or aspiring to work in, a kitchen learn about food safety and kitchen hygiene in a fun and engaging way. For this game, I created the 3D models, produced simple animations, and worked on the rendering by implementing toon shading and point filtering to achieve a pixel-like 3D art style inspired by A Short Hike. I also developed the user interface functionality and created 2D assets for the UI components. In terms of gameplay features, I worked on elements such as the logic for the dialogue system using scriptable objects, player input, sound implementation, and other core interactions.",
+    videos: ["alfredo.mov"],
+    images: [
+      "Screenshot 2025-11-17 at 13.17.01.png",
+      "Screenshot 2025-11-17 at 13.17.48.png",
+      "Screenshot 2025-11-17 at 13.18.18.png",
+      "Screenshot 2025-11-17 at 13.19.24.png",
+      "Screenshot 2025-11-17 at 13.20.43.png",
+      "Screenshot 2025-11-17 at 15.15.33.png",
+      "Screenshot 2025-11-17 at 15.16.56.png",
+      "Screenshot 2025-11-17 at 15.15.10.png"
+    ]
+  },
+  {
+    id: "advanced-graphics",
+    title: "Wavefront Path Tracer",
+    year: "2024",
+    technologies: "C++; OpenCL",
+    description:
+      "For this assignment we implemented a path tracer to render a 3D scene, using a Wavefront formulation proposed by Laine et al. in the paper Megakernels Considered Harmful: Wavefront Path Tracing on GPUs.",
+    images: [
+      "scene1.png",
+      "depth_graph.png",
+      "Kernel-sequence.png"
+    ]
+  },
+  {
     id: "game-physics",
     title: "Game Physics",
     year: "2024",
     technologies: "Unity; C#",
     description:
-      "For this assignment I created cloth physics using a mass-spring system, and ray-ellipsoid intersection for collision.",
+      "For this assignment I implemented real-time cloth physics using a mass-spring system, and ray-ellipsoid intersection for collision.",
     videos: ["gamephysics2.gif"],
     images: [
       "Screenshot 2025-11-17 at 11.27.59.png",
@@ -17,6 +49,24 @@ const projectDetailsData = [
       "Screenshot 2025-11-17 at 11.27.10.png",
       "Screenshot 2025-11-17 at 12.07.19.png"
 
+    ]
+  },
+  {
+    id: "space-neon-emotions",
+    title: "Space Neon Emotions",
+    year: "2020",
+    technologies: "Unity; C#",
+    description:
+      "For this assignment, we developed an immersive VR application designed to support individuals dealing with anger-management challenges. My primary contributions included implementing pseudo-random generation of a 3D wire-loop game model using Bézier curves, with three progressively increasing difficulty levels. I also created several 3D assets using Maya.",
+    videos: ["vr1.gif","vr2.gif"],
+    images: [
+      "vr1.png",
+      "vr2.png",
+      "vr3.png",
+      "vr4.png",
+      "vr5.png",
+      "vr6.png",
+      "vr7.jpg"
     ]
   },
   {
