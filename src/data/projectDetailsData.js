@@ -178,12 +178,49 @@ const projectDetailsData = [
   {
     id: "broccolife",
     title: "Broccolife",
-    year: "2016",
+    year: "2019",
     technologies: "Game Maker (GML)",
     description:
       "Created in just 48 hours for a game jam, this game challenges players to demolish factories while avoiding trees, aiming to restore the planet to a greener, factory-free state. Along the way, players can collect batteries to power their vehicle’s electric mode, reducing emissions and promoting a cleaner environment.",
     videos: ["BroccolifeGif.gif"],
     images: ["Broccolife5.png", "Broccolife4.png", "Broccolife8.png", "Broccolife1.png", "Broccolife6.png", "Broccolife7.png", "Broccolife2.png"]
+  },
+  {
+    id: "stillness-speaks",
+    title: "Stillness Speaks",
+    year: "2022",
+    technologies: "Unity; C#",
+    description:
+      "This project was created for a game jam held in Okutama, Japan. In the game, players solve increasingly difficult puzzles by sliding pieces of a distorted video into their correct positions. Once all pieces are aligned, the full undistorted video is revealed, showcasing a scene filmed in Okutama.",
+    videos: [
+      "ss2.gif",
+      "ssrec.mov"
+    ],
+    images: [
+      "ss8.png",
+      "ss5.png",
+      "ss7.png",
+      "ss6.png",
+      "ss3.JPG"
+    ]
+  },
+  {
+    id: "fix-the-computer",
+    title: "Fix the Computer",
+    year: "2020",
+    technologies: "Unity; C#",
+    description:
+      "This project was developed for a game jam by a team of four. Our game draws inspiration from the Nintendo DS title WarioWare, challenging players to complete fast-paced mini-games within just a few seconds to maximize their score. Everything from the interface to the mini-games is styled after classic Windows XP.",
+    images: [
+      "ggj2020_home.png",
+      "ggj2020.png",
+      "ggj2020_2.png",
+      "ggj2020_3.png",
+      "ggj2020_4.png",
+      "ggj2020_5.png",
+      "ggj2020_6.png",
+      "ggj2020_8.png",
+    ]
   }
 
 ];
