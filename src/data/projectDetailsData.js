@@ -221,6 +221,22 @@ const projectDetailsData = [
       "ggj2020_6.png",
       "ggj2020_8.png",
     ]
+  },
+  {
+    id: "laughing-my-face-on",
+    title: "Laughing My FAce On (LMFAO)",
+    year: "2024",
+    technologies: "Unity; C#",
+    description:
+      "This project was created in just 48 hours for the Global Game Jam of 2024. The objective of the game is to place the eyes, nose, and mouth in the correct positions on a mannequin to complete a face. Each facial feature moves around the mannequin, and the player must press the space bar with precise timing to attach it in the right spot.",
+    videos:
+    ["lmfaorec.mov"],
+    images: [
+      "lmfao0.png",
+      "lmfao2.png",
+      "lmfao3.png",
+      "lmfao1.png"
+    ]
   }
 
 ];

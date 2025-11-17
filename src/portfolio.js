@@ -310,6 +310,10 @@ const personalProjects = {
   title: "Personal Projects",
   projects: [
     {
+      projectId: "laughing-my-face-on",
+      image: `/${"lmfao2.png"}`
+    },
+    {
       projectId: "stillness-speaks",
       image: `/${"ss4.jpeg"}`
     },
