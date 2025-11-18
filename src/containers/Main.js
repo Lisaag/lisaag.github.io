@@ -55,12 +55,12 @@ const Main = () => {
             <Greeting />
             <Skills />
             <StackProgress />
-            <Education data={educationInfo} />
+            <Education idhref="education" data={educationInfo} />
             <WorkExperience />
             <Projects />
             <StartupProject idhref="projects" data={bigProjects} />
             
-            <Education data={workInfo} />
+            <Education idhref="work" data={workInfo} />
 
             <StartupProject idhref="personalProjects" data={personalProjects} />
             <Achievement />
