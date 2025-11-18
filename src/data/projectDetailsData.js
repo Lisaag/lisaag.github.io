@@ -194,7 +194,7 @@ const projectDetailsData = [
       "This project was created for a game jam held in Okutama, Japan. In the game, players solve increasingly difficult puzzles by sliding pieces of a distorted video into their correct positions. Once all pieces are aligned, the full undistorted video is revealed, showcasing a scene filmed in Okutama.",
     videos: [
       "ss2.gif",
-      "ssrec.mov"
+      "ssrec.mp4"
     ],
     images: [
       "ss8.png",
@@ -230,7 +230,7 @@ const projectDetailsData = [
     description:
       "This project was created in just 48 hours for the Global Game Jam of 2024. The objective of the game is to place the eyes, nose, and mouth in the correct positions on a mannequin to complete a face. Each facial feature moves around the mannequin, and the player must press the space bar with precise timing to attach it in the right spot.",
     videos:
-    ["lmfaorec.mov"],
+    ["lmfaorec.mp4"],
     images: [
       "lmfao0.png",
       "lmfao2.png",
