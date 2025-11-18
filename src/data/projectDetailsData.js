@@ -52,6 +52,26 @@ const projectDetailsData = [
     ]
   },
   {
+    id: "eraide",
+    title: "Eraide",
+    year: "2020",
+    technologies: "Unity; C#",
+    description:
+      "For this project, I created a 3D landscape for an RPG, divided into multiple sections so different elements can be spawned based on the area. I began by generating random points within randomly selected grid cells and connecting these cells with a path, along which additional random points were placed. A concave hull was then constructed around the points to define the overall shape of the world. Using this shape, I generated a 3D mesh representing the mountainous terrain, with valleys corresponding to the point clusters and mountains forming outside these regions. The mesh was further refined using Perlin noise, along with Bezier-curve smoothing to create more natural mountain edges.",
+    videos:[
+
+    ],
+    images: [
+      "eraide7.png",
+      "eraide6.png",
+      "eraide5.png",
+      "eraide4.png",
+      "eraide3.jpg",
+      "eraide2.jpg",
+      "eraide1.jpg"
+    ]
+  },
+  {
     id: "space-neon-emotions",
     title: "Space Neon Emotions",
     year: "2020",
@@ -206,7 +226,7 @@ const projectDetailsData = [
   },
   {
     id: "fix-the-computer",
-    title: "Fix the Computer",
+    title: "Malityware",
     year: "2020",
     technologies: "Unity; C#",
     description:
@@ -236,6 +256,21 @@ const projectDetailsData = [
       "lmfao2.png",
       "lmfao3.png",
       "lmfao1.png"
+    ]
+  },
+  {
+    id: "knol-power",
+    title: "Knol Power",
+    year: "2023",
+    technologies: "Unity; C#",
+    description:
+      "This game was created with a friend for the 2023 Global Game Jam. It’s a local multiplayer experience where players race to collect vegetables and plant them in their gardens to earn points. But be careful: crashing into obstacles or other players will cause you to drop everything you’re carrying!",
+    videos:
+    ["knol_power_trimmed.mp4"],
+    images: [
+      "kp_1.png",
+      "kp_2.png",
+      "kp_3.png"
     ]
   }
 

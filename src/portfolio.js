@@ -263,6 +263,10 @@ const bigProjects = {
       image: require("./assets/images/ComputerVision.jpeg")
     },
     {
+      projectId: "eraide",
+      image: `/${"eraide1.jpg"}`
+    },
+    {
       projectId: "space-neon-emotions",
       image: `/${"vr1.png"}`
     },
@@ -312,6 +316,10 @@ const personalProjects = {
     {
       projectId: "laughing-my-face-on",
       image: `/${"lmfao2.png"}`
+    },
+    {
+      projectId: "knol-power",
+      image: `/${"kp_preview.png"}`
     },
     {
       projectId: "stillness-speaks",
@@ -458,7 +466,7 @@ const resumeSection = {
 const contactInfo = {
   title: "Contact me",
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Don't hesitate to contact me about cool stuff!",
   email_address: "lisatgroen@hotmail.com"
 };
 
