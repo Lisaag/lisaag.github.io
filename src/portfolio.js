@@ -125,6 +125,7 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science (Game and Media Technology)",
       duration: "Februari 2023 - April 2025",
       desc: "Graduation thesis title: Towards Continuous Sleep Monitoring of Preterm Infants in Complex NICU Scenes: A Video-Based Approach Using Eye Cues.",
+      link: "https://studenttheses.uu.nl/handle/20.500.12932/48900"
     },
     {
       schoolName: "Amsterdam University of Applied Sciences",

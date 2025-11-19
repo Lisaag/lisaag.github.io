@@ -54,7 +54,8 @@ export default function EducationCard({school}) {
               >
                 {school.duration}
               </p>
-              <p className="education-text-desc">{school.desc}</p>
+              <p className="education-text-desc">{school.desc} </p>
+              {school.link &&( <p>Check out my thesis <a href={school.link} target="_blank">here</a>!</p>)}
               <div className="education-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />
