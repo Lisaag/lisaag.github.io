@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82cef4c1.css",
-    "main.js": "/static/js/main.94759319.js",
+    "main.js": "/static/js/main.d0beab2e.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.2503bc44.chunk.js": "/static/js/487.2503bc44.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -14,7 +14,6 @@
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/CV.pdf": "/static/media/CV.d510352119aaf23f93aa.pdf",
     "static/media/channels4_profile.jpg": "/static/media/channels4_profile.3abf480cf18c2ef7ee79.jpg",
-    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/quoraLogo.png": "/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
@@ -26,7 +25,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.82cef4c1.css.map": "/static/css/main.82cef4c1.css.map",
-    "main.94759319.js.map": "/static/js/main.94759319.js.map",
+    "main.d0beab2e.js.map": "/static/js/main.d0beab2e.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.2503bc44.chunk.js.map": "/static/js/487.2503bc44.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -34,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.82cef4c1.css",
-    "static/js/main.94759319.js"
+    "static/js/main.d0beab2e.js"
   ]
 }
