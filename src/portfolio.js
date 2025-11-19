@@ -22,7 +22,7 @@ const illustration = {
 const greeting = {
   username: "Lisa Groen",
   title: "Hi there, I'm Lisa!!",
-  subTitle: "Thank you for checking out my portfolio website! Please stay a bit longer, and check out some of my cool projects down below :)",
+  subTitle: "Welcome to my portfolio website! Please stay a bit longer, and check out some of my cool projects down below :)",
   resumeLink: "CV.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -132,7 +132,7 @@ const educationInfo = {
       logo: require("./assets/images/channels4_profile.jpg"),
       subHeader: "Bachelor of Science in HBO-ICT (Game Development)",
       duration: "September 2016 - August 2020",
-      desc: "Graduation project on procedural mountain landscape generation for a turn-based JRPG.",
+      desc: "Graduation project on 3D mountain landscape generation for a turn-based JRPG.",
     }
   ]
 };
@@ -141,6 +141,12 @@ const workInfo = {
   title: "Work Experience",
   display: true, // Set false to hide this section, defaults to true
   schools: [
+    {
+      schoolName: "UMC Utrecht",
+      subHeader: "Research intern",
+      duration: "September 2024 - April 2025",
+      desc: "Developing a computer vision pipeline for camera-based sleep stage classification of preterm infants, using eye cues.",
+    },
     {
       schoolName: "Utrecht University",
       subHeader: "Teaching Assistant",
@@ -467,7 +473,7 @@ const resumeSection = {
 const contactInfo = {
   title: "Contact me",
   subtitle:
-    "Don't hesitate to contact me about cool stuff!",
+    "Don't hesitate to reach out to me about cool stuff!",
   email_address: "lisatgroen@hotmail.com"
 };
 
