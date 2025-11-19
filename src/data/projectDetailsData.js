@@ -62,12 +62,12 @@ const projectDetailsData = [
 
     ],
     images: [
-      "eraide7.png",
-      "eraide6.png",
-      "eraide5.png",
-      "eraide4.png",
-      "eraide3.jpg",
-      "eraide2.jpg",
+      "Eraide7.png",
+      "Eraide6.png",
+      "Eraide5.png",
+      "Eraide4.png",
+      "Eraide3.jpg",
+      "Eraide2.jpg",
       "eraide1.jpg"
     ]
   },
